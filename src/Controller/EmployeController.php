@@ -94,7 +94,7 @@ class EmployeController extends AbstractController
     } # end fonction update
 
     /**
-     * @Route("/supprimer-un-employe-{id}, name="employe_delete", methods={"GET"})
+     * @Route("/supprimer-un-employe-{id}", name="employe_delete", methods={"GET"})
      */
     public function delete(Employe $employe, EntityManagerInterface $entityManager): RedirectResponse 
     {
